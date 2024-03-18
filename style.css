@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebffd2;
+}
+
+.content {
+  width: 1080px;
+  min-height: 100vh;
+  background: white;
+  margin: 85px auto;
+  border-radius: 20px;
+  padding-bottom: 100px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.409);
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header__logo img {
+  width: 40px;
+  height: 40px;
+}
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  column-gap: 32px;
+}
+.header__nav-list li {
+  display: flex;
+  align-items: center;
+}
+
+.sneakers-card {
+  width: 210px;
+  height: 260px;
+  border: 1px solid rgba(0, 0, 0, 0.126);
+
+  position: relative;
+
+  padding: 20px 30px;
+
+  border-radius: 40px;
+
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.131);
+}
+
+.sneakers__card-img {
+  width: 133px;
+  height: 112px;
+}
+
+.sneakers__card-like {
+  position: absolute;
+  background: none;
+  border: none;
+}
+
+.sneakers__card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+.sneakers__actions-cart {
+  background: none;
+  border: none;
+}
+
+.sneakers__card-title {
+  font-size: 14px;
+  margin: 14px 0px;
+}
+
+.sneakers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
