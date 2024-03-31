@@ -95,3 +95,24 @@ body {
   justify-content: center;
   gap: 40px;
 }
+.t1 {
+  margin-left: 150px;
+}
+.num2 {
+  display: flex;
+}
+.t2 {
+  margin-left: 130px;
+}
+.t3 {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: greenyellow;
+  color: white;
+  padding: 15px 5px;
+}
